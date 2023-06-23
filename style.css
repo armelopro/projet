@@ -1,0 +1,14 @@
+#sample {
+  background-color: #FFE44A;
+  cursor: pointer;
+}
+#sample .text,
+#sample .title {
+  color: #444;
+}
+#sample .text {
+  font-size: 36px;
+  line-height: 26px;
+  margin-top: 30px;
+  text-align: center;
+}

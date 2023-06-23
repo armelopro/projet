@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title class="title">Template</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" type="text/css" href="asset/icon/css/all.css">
+	<script type="text/javascript" src="script/jquery.js"></script>
+
+</head>
+<body>
+	<div class="container" >
+
+		<div class="header" >
+			<ul class="left-side">
+				<img class="logo-client" id="icon" src="asset/afb-logo4.png" >
+			</ul>
+			<ul>
+				<li class="titre-page">Satisfation client</li>
+			</ul>
+			<div class="right-side">
+					<div class="lang-menu">
+						<div id="Francais" class="lang selected-lang"><span>Francais</span> </div>
+						<div id="English" class="lang" ><span>English</span></div>
+						<ul>
+		                    <li>
+		                        <a language = "English" href="" class="en">English</a>
+		                    </li>
+		                    <li>
+		                        <a language = "Francais" href="" class="fr">Francais</a>
+		                    </li>
+		    
+                		</ul>
+
+					</div>
+			</div>
+		</div>
+		<div class="core">
+
+			<div class="group group-1 active">
+				<div class="menu" id="menu">
+					<img class="icon icon-1" src="asset/afriland.jpg">
+				</div>
+			</div>
+			<div class="group group-2">
+				<p id="question-1" class="question">Question 1</p>
+				<ul class="menu">
+					<li class="icon caisse1 icon-2 fa fa-file-invoice-dollar"><p id="icon6" class="caption">Caisse 1</p></li>
+					<li class="icon caisse2 icon-2 fa fa-file-invoice-dollar"><p id="icon7" class="caption"> Caisse 2</p></li>
+					<li class="icon caisse3 icon-2 fa fa-file-invoice-dollar"><p id="icon8" class="caption">Caisse 3</p></li>
+					<li class="icon caisse4 icon-2 fa fa-file-invoice-dollar"><p id="icon9" class="caption">Caisse 4</p></li>
+					<li class="icon chefAgence icon-2 fa fa-file-invoice-dollar"><p id="icon10" class="caption">Chef agence</p></li>
+				</ul>
+			</div>
+
+
+
+			<div class="group group-3">
+				<p id="question-2" class="question">Question 2</p>
+				<ul class="menu">
+					<li class="icon caisse icon-3 fa fa-money-check-dollar"><p id="icon1" class="caption caissse">Caisse</p> </li>
+					<li class="icon cheque icon-3 fa fa-file-invoice-dollar"><p id="icon2" class="caption cheque">Cheque</p></li>
+					<li class="icon gestion icon-3 fa fa-user-gear"><p id="icon3" class="caption getions">Gestion de compte</p></li>
+					<li class="icon revendication icon-3 fa fa-user-gear"><p id="icon4" class="caption revendication">Revendication</p></li>
+					<li class="icon autres icon-3 fa fa-file-invoice"><p id="icon5" class="caption other">Autres service</p></li>
+				</ul>
+			</div>
+			<div class="group group-4">
+				<p id="question-3" class="question">Question 3</p>
+				<ul class="menu">
+					<li class="icon non-satisfait icon-4 rouge fa  fa-face-frown"><p id="icon11" class="caption pasDuToutSat">Pas du tout satisfait</p>
+					</li>
+					<li class="icon pas-satisfait icon-4 orange fa  fa-face-frown"><p id="icon12" class="caption pasSat">
+						Pas satisfait
+					</p>
+					</li>
+
+					<li class="icon un-peu icon-4 jaune fa fa-face-meh"><p id="icon13" class="caption unPeuSat">
+						Un peu satisfait
+					</p>
+					</li>
+					<li class="icon satisfait icon-4 vertci fa fa-face-smile"><p id="icon14" class="caption sat">
+						Satisfait
+					</p>
+					</li>
+					<li class="icon tres-satisfait icon-4 vert fa fa-face-smile"><p id="icon15" class="caption tresSat"> Très satisfait</p>
+					</li>
+				</ul>
+			</div>
+			<div class="group group-5">
+				<p id="question-4" class="question">Question 4</p>
+				<ul class="menu">
+					<li class="icon pas-du-tout icon-5 rouge fa fa-face-frown"><p id="icon16" class="caption pasDuTout">Pas du tout</p></li>
+					<li class="icon pas-vraiment icon-5 orange fa  fa-face-frown"><p id="icon17" class="caption pasVrai">Pas Vraiment</p></li>
+					<li class="icon plutot icon-5 jaune fa fa-face-meh"><p id="icon18" class="caption plutotBien">Plutot bien</p></li>
+					<li class="icon bien icon-5 vertci fa fa-face-smile"><p id="icon19" class="caption bien">Bien</p></li>
+					<li class="icon tres-bien icon-5 vert fa fa-face-smile"><p id="icon20" class="caption tresBien">Très bien</p></li>
+				</ul>
+			</div>
+
+			<div class="group group-6">
+				<p id="question-5" class="question">Question 5</p>
+				<ul class="menu menu-2">
+					<li class="icon oui icon-6 vert fa fa-thumbs-up"><p id="icon21" class="caption">Oui</p></li>
+					<li class="icon non icon-6 rouge fa fa-thumbs-down"><p id="icon22" class="caption">Non</p></li>
+					
+				</ul>
+			</div>
+			
+			<div class="group group-7">
+				<div class="fin">
+					<div class="tel">
+						<input  id="phone" class="textbox" type="tel" name="Phone" placeholder="entrer votre numero de téléphone exemple: 695425415" required>
+						<div id="errors" class="error hidden">Entrer le numero au format 693 258 452</div>
+					</div>
+					<textarea id="comment" class="textbox " placeholder="Entrer vos remarques et suggestions"></textarea>
+					<input id="submit" type="submit" name="Envoyer" class="bouton hidden">
+				</div>
+			</div>
+		</div>
+		<div class="footer"></div>
+	</div>
+<script type="text/javascript" src="script/script.js"></script>
+
+<script type="text/javascript" src="script/lang.js"></script>
+
+</body>
+</html>
